@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header .logo {
+    font-size: 55px;
+    font-weight: 500;
+}
+
+.add,
+.subtract {
+    padding: 10px;
+    background-color: #001A23;
+    cursor: pointer;
+    width: fit-content;
+    color: #ffffff;
+    height: fit-content;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+}
+
+.zoom-action {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.move-action {
+    padding: 10px;
+    cursor: pointer;
+    width: fit-content;
+    height: fit-content;
+    background-color: #EADDA6;
+}
